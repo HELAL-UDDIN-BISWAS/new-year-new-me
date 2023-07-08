@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 10px;
+    background-color: rgba(248, 246, 245, 0.934);
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+h3{
+    font-size: ;
+    color:  #757575;
+}
+span{
+    color: #F15B22;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+ul li a{
+    color: #757575;
+    text-decoration: none;
+}
+.button{
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    background-color:#F15B22;
+}
+
+.section-area{
+    padding: 0px 105px;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/banner/banner1.png");
+}
+.section-text{
+    margin-top: 20px;
+  text-align: end;
+    position: right;
+    width: 225px;
+    flex-direction: column;
+}
+.section-text h2{
+    font-size: 30px;
+}
+.section-text button{
+    margin-top: 20px;
+    padding: 7px;
+    color: #fff;
+    border: 0;
+    background-color: #F15B22;
+   border-radius: 3px;
+}
+/* header end */
+.man-area{
+    padding: 50px 70px;
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+}
+.man-area .img-class {
+    background-image: linear-gradient(90deg,#f15b22 0%,rgba(241,91,34, 0.00)100%),url("images/person.png");
+    
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+}
+.man-area .titel{
+    flex-direction: column;
+    display: flex;
+  justify-content: center;
+    width: 292px;
+    height: 425px;
+    
+}
+.man-area .titel h3{
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+    padding-right: 70px;
+}
+.man-area .titel p,li{
+    color:  #757575;
+    font-size: 14px;
+}
+
+.man-area .titel li{
+ list-style: none;
+ margin-top: 5px;
+}
+.gren{
+    color: green;
+}
+.text h3{
+    text-align: center;
+    margin: 20px;
+    color: black;
+    font-weight: 800;
+    font-size: 25px;
+}
+.plan-area{
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.plan-area p{
+    color:#757575;
+}
+.plan-area h3{
+    color:black;
+}
+.time-img{
+    border-radius: 5px;
+    margin: 40px;
+    background-position: center;
+   background-image: url("images/watch.png");
+   background-size: cover;
+
+}
+.time-img h3{
+    padding-right: 5000px;
+    font-size: 35px;
+padding: 20px;
+color: #fff;
+padding-right: 370px;
+}
+.time-img button{
+    color: rgba(210, 114, 65, 0.9);
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
